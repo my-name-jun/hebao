@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+          name="viewport">
+    <title>jynj</title>
+</head>
+<body  :controller="vm" class="ms-controller">
+    <div class="title">子女教育年金</div>
+    <div class="head_word">招商仁和人寿
+        <div class="head_word_div" id="modal">详情<img :attr="{src:@dv_page2psd_layer_56}" alt="" class="modal_icon"></div>
+    </div>
+
+    <div class="conten_bgn">
+        <span class="amount">账户余额(元)</span>
+        <span class="max_team">满期最高可领(元)</span>
+        <span class="notA_amount">10.00</span>
+        <img :attr="{src:@dv_page2psd_layer_51}" alt="" class="not_active">
+        <span class="max_amount">21.49</span>
+
+        <div class="tear">
+            有效期至{{@year}}
+        </div>
+        <div class="submit2" :click="submit2">立即激活并领取</div>
+    </div>
+
+    <div class="notes">有趣有爱<span class="notes_span">|</span>1元加保<span class="notes_span">|</span>累计领取<img :attr="{src:@dv_page2psd_layer_57}" alt=""><span class="number">{{@number}}</span>人</div>
+
+    <div class="bgn_null"></div>
+
+    <div class="footer">
+        <div class="active_title">如何激活</div>
+        <div class="active_content">
+            <img :attr="{src:@dv_page2psd_layer_88}" alt=""><span class="active_content_right1">
+            1 . 填写投保信息
+        </span><br><span class="active_content_right2">填写您宝宝和您的投保信息</span>
+        </div>
+
+        <div class="active_content">
+            <img :attr="{src:@dv_page2psd_layer_90}" alt=""><span class="active_content_right1">
+            2 . 使用和包电子券支付
+        </span><br><span class="active_content_right2">请开通和包支付账户</span>
+        </div>
+
+        <div class="active_content">
+            <img :attr="{src:@dv_page2psd_layer_91}" alt=""><span class="active_content_right1">
+            3 . 领取成功
+        </span><br><span class="active_content_right2">等待收益</span>
+        </div>
+    </div>
+
+
+
+<!--模态框-->
+
+    <!-- 模态框（Modal） -->
+    <div class="modal" id="myModal" style="display: none">
+        <div class="myModal">
+            <div class="company_title">公司介绍</div>
+            <div class="line"></div>
+            <div class="content_word">招商仁和人寿，由招商局、中国移动<br>等共同发起设立，注册资本50亿，源<br>自1875年民族保险品牌</div>
+            <div class="return" id="modal_hidden">返回</div>
+        </div>
+    </div>
+</body>
+
+</html>

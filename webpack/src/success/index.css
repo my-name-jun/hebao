@@ -1,0 +1,238 @@
+body
+{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+ms-controller
+{
+    visibility: hidden;
+}
+.title
+{
+    line-height: 100%;
+    font-size: 0.24rem;
+    margin: 0.3rem 0 0 0.2rem;
+}
+.head_word
+{
+    line-height: 100%;
+    font-size: 0.15rem;
+    margin: 0.14rem 0 0 0.2rem;
+    color: #ADADAD;
+}
+.head_word span
+{
+    color: #6186FB;
+    display: inline-block;
+    margin-left: 0.1rem;
+}
+.head_word_div
+{
+    color: #6186FB;
+    display: inline-block;
+    margin-left: 0.1rem;
+    display: inline-block;
+}
+.modal_icon
+{
+    width: 0.15rem;
+    height: 0.15rem;
+    margin-left: 0.04rem;
+    line-height: 100%;
+    vertical-align: bottom;
+}
+.conten_bgn
+{
+    width: 3.45rem;
+    height: 2.2rem;
+    background: url("./../index/img/dv_page2psd_layer_45.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 0.215rem 0 0 0.1rem;
+}
+.amount
+{
+    font-size: 0.15rem;
+    line-height: 100%;
+    vertical-align: top;
+    color: #757e9b;
+    margin: 0.26rem 0 0 0.40rem;
+    display: inline-block;
+}
+.max_team
+{
+    font-size: 0.15rem;
+    line-height: 100%;
+    vertical-align: top;
+    color: #757e9b;
+    margin: 0.26rem 0 0 0.7rem;
+    display: inline-block;
+}
+.notA_amount
+{
+    font-size: 0.4rem;
+    line-height: 100%;
+    position: absolute;
+    left: 0.5rem;
+    top: 1.52rem;
+}
+.not_active
+{
+    line-height: 100%;
+    height: 0.15rem;
+    width: 0.44rem;
+    position: absolute;
+    left: 1.5rem;
+    top: 1.56rem;
+}
+.max_amount
+{
+    line-height: 100%;
+    font-size: 0.4rem;
+    color: #69778B;
+    position: absolute;
+    top: 1.56rem;
+    left: 2.17rem;
+}
+.tear
+{
+    line-height: 100%;
+    font-size: 0.14rem;
+    text-align: center;
+    /*margin: -0.18rem auto 0;*/
+    position: absolute;
+    left: 1.2rem;
+    top: 2.28rem;
+}
+.submit2
+{
+    width: 2.85rem;
+    height: 0.25rem;
+    background: url("./../index/img/dv_page2psd_layer_46.png") no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 0.1rem 0;
+    color: white;
+    font-size: 0.18rem;
+    position: absolute;
+    left: 0.44rem;
+    top: 2.55rem;
+}
+.notes
+{
+    line-height: 100%;
+    font-size: 0.15rem;
+    color: #999999;
+    margin: 0.15rem 0 0.15rem 0.2rem;
+}
+.notes_span
+{
+    margin: 0 0.1rem;
+}
+.notes img
+{
+    width: 0.13rem;
+    height: 0.14rem;
+    vertical-align: bottom;
+    margin-left: 0.07rem;
+}
+.number
+{
+    margin: 0 0.04rem;
+    color: #4D75FF;
+}
+.bgn_null
+{
+    width: 100%;
+    height: 0.13rem;
+    background-color: #e6e6e6;
+}
+
+/*footer*/
+.footer
+{
+    padding-bottom: 0.3rem;
+}
+.active_title
+{
+    line-height: 100%;
+    font-size: 0.18rem;
+    margin: 0.15rem 0 0 0.2rem;
+}
+.active_content
+{
+    margin: 0.2rem 0 0 0.2rem;
+    font-size: 0.15rem;
+}
+.active_content img
+{
+    float: left;
+    width: 0.4rem;
+    height: 0.4rem;
+}
+.active_content span
+{
+    clear: both;
+    font-size: 0.15rem;
+    vertical-align: top;
+    margin-left: 0.16rem;
+}
+.active_content_right2
+{
+    color: #999999;
+}
+
+/*模态框*/
+.modal
+{
+    width: 100%;
+    height: 110%;
+    background-color: rgba(94,94,94,0.6);
+    position: absolute;
+    top: 0;
+}
+.myModal
+{
+    position: absolute;
+    left: 0.4rem;
+    top: 2.45rem;
+    width: 2.9rem;
+    height: 1.95rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.company_title
+{
+    line-height: 100%;
+    font-size: 0.18rem;
+    text-align: center;
+    margin: 0.16rem auto 0;
+}
+.line
+{
+    margin-top: 0.16rem;
+    border-bottom: 1px solid rgba(92,92,92,0.2);
+}
+.content_word
+{
+    margin: 0.2rem 0 0 0.26rem;
+    line-height: 123%;
+    font-size: 0.15rem;
+    text-align: left;
+}
+.return
+{
+    text-align: center;
+    background-color: #4c71f1;
+    width: 100%;
+    padding: 0.1rem 0;
+    font-size: 0.18rem;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+}

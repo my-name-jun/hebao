@@ -1,0 +1,87 @@
+body
+{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+ms-controller
+{
+    visibility: hidden;
+}
+.top_icon
+{
+    display: block;
+    width: 0.57rem;
+    margin: 0 auto;
+    margin-top: 0.475rem;
+}
+.top_word
+{
+    font-size: 0.15rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    line-height: 100%;
+}
+.price
+{
+    text-align: center;
+    line-height: 100%;
+    font-size: 0.5rem;
+    margin: 0.575rem auto 0;
+}
+.price span
+{
+    line-height: 100%;
+    font-size: 0.15rem;
+    margin-left: 0.125rem;
+}
+.term
+{
+    line-height: 100%;
+    font-size: 0.14rem;
+    margin: 0.2rem auto 0;
+    text-align: center;
+}
+.submit1
+{
+    text-align: center;
+    line-height: 100%;
+    margin: 0.25rem auto 0;
+    padding: 0.13rem 0.8rem;
+    font-size: 0.18rem;
+    color: white;
+    /*background-color: #5B80FA;*/
+    width: 1.3rem;
+    height: 0.18rem;
+    /*border-radius: 10px;*/
+    background: url("./img/dv_page2psd_layer_46.png") no-repeat;
+    background-size: 100% 100%;
+}
+.footer_word
+{
+    margin: 1.87rem auto 0;
+    text-align: center;
+    line-height: 100%;
+    font-size: 0.15rem;
+}
+.footer_word_left
+{
+    color: #4E76FF;
+    margin-right: 0.09rem;
+}
+.footer_word_right
+{
+    color: #4E76FF;
+    margin-left: 0.09rem;
+}
+.footer_word_middle
+{
+    display: inline-block;
+    margin: 0 0.125rem;
+    color: #cbd0e0;
+}
